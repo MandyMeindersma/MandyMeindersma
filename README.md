@@ -1,16 +1,3 @@
-<p align="center" width="100%">
-  <a href="">
-    <img src="https://github-readme-stats.vercel.app/api?username=mandymeindersma&show_icons=true&hide_title=true&count_private=true"
-         height="150"/>
-  </a>
-  <a href="">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mandymeindersma&hide_title=true&layout=compact"
-         height="150"/>
-  </a>
-</p>
+[![readme-stats](https://github-readme-stats.vercel.app/api?username=mandymeindersma&show_icons=true&hide_title=true&count_private=true&show=reviews&hide_rank=true)](https://github.com/anuraghazra/github-readme-stats)
 
-<p align="center" width="100%">
-  <a href="">
-    <img src="https://github-profile-trophy.vercel.app/?username=mandymeindersma&row=1column=9"/>
-  </a>
-</p>
+[![trophy](https://github-profile-trophy.vercel.app/?username=mandymeindersma&row=2&column=4)](https://github.com/ryo-ma/github-profile-trophy)
