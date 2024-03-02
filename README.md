@@ -10,3 +10,4 @@
         height="200"/>
   </a>
 </p>
+[![An image of @mandymeindersma's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mandymeindersma)](https://holopin.io/@mandymeindersma)
