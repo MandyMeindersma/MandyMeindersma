@@ -14,6 +14,6 @@
   <a href="https://holopin.io/@mandymeindersma">
     <img src="https://holopin.me/mandymeindersma"
         alt="n image of @mandymeindersma's Holopin badges, which is a link to view their full Holopin profile"
-        height="200"/>
+        />
   </a>
 </p>
