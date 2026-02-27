@@ -5,7 +5,7 @@
         height="180"/>
   </a>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=mandymeindersma&row=2&column=4"
+    <img src="./profile/trophy.svg"
         alt="Trophies that mandy has achieved"
         height="180"/>
   </a>
