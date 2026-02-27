@@ -27,12 +27,13 @@ jobs:
           git commit -m "Update README stats" || exit 0
           git push
   trophy:
+    needs: stats
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - name: Generate trophy
-        uses: ryo-ma/github-profile-trophy@master
+        uses: Erik-Donath/github-profile-trophy@main
         with:
           username: ${{ github.repository_owner }}
           output_path: profile/trophy.svg
