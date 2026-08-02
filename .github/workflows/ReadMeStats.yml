@@ -30,7 +30,7 @@ jobs:
     needs: stats
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Generate trophy
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
@@ -48,4 +48,27 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "Update README trophy" || exit 0
+          git push
+  commits:
+    needs: stats
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      
+      - name: Generate commit stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&disable_animations=true&hide_border=true&theme=buefy&card_width=100&card_height=180&hide_current_streak=true&hide_longest_streak=true
+          path: profile/commits.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git pull
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README commit" || exit 0
           git push
