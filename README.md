@@ -10,7 +10,7 @@
         height="180"/>
   </a>
   <a href="https://git.io/streak-stats" style="padding-left: 7px;">
-    <img src="https://streak-stats.demolab.com/?user=mandymeindersma&hide_border=true&theme=buefy&card_width=100&card_height=180&hide_current_streak=true&hide_longest_streak=true"
+    <img src="./profile/commits.svg"
         alt="An infographic on how many commits I have ever done"/>
     </a>
 </p>
