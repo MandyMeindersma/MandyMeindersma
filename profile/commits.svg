@@ -23,7 +23,7 @@
                 <!-- Total Contributions big number -->
                 <g transform='translate(50, 40.5)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#7957D5' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 1; opacity: 1;'>
-                        2,402
+                        2,406
                     </text>
                 </g>
 
@@ -69,7 +69,7 @@
                 <!-- Current Streak big number -->
                 <g transform='translate(-999, 40.5)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FF3860' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='font-size: 28px;'>
-                        0
+                        1
                     </text>
                 </g>
 
